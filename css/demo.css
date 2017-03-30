@@ -1,0 +1,290 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: Verdana, Helvetica, "Microsoft YaHei", Arial;
+}
+
+body{
+	background-color: #fbfbfb;
+}
+.nav{
+	height: 64px;
+	z-index: 99999;
+	border-top: 1px solid #e4e4e4;
+	border-bottom:1px solid #e4e4e4;
+	background-color: white;
+}
+.nav ul{
+	list-style: none;
+	width:960px;
+	height: 64px;
+	margin:0 auto;
+}
+.nav ul li{
+	float: left;
+	width: 190px;
+	height: 64px;
+	border-left: 1px solid #e4e4e4;
+}
+.nav ul li:last-child{
+	border-right: 1px solid #e4e4e4;
+}
+.nav ul li a{
+	display: block;
+	text-decoration: none;
+	color:black;
+	text-align: center;
+	height: 64px;
+	line-height: 64px;
+}
+.nav ul li a:hover{
+	color: white;
+	background-color: red;
+}
+.logo{
+	height: 139px;
+}
+.logo>img{
+	float: left;
+	margin-top: 20px;
+	margin-left: 160px;
+}
+.logo input{
+	width: 216px;
+	height: 34px;
+}
+.search{
+	width: 226px;
+	height: 34px;
+}
+input{
+	padding-left: 10px;
+}
+.search{
+	float: right;
+	margin-top: 50px;
+	margin-right: 173px;
+	position: relative;
+}
+.logo .search a{
+	position: absolute;
+	top: 9px;
+	right: 4px;
+}
+.nav2{
+	list-style: none;
+	width: 960px;
+	height: 52px;
+	margin: 0 auto;
+}
+.nav2 a{
+	text-decoration: none;
+	color: white;
+	background-color: #c12000;
+	display: block;
+	width: 312px;
+	height: 52px;
+	text-align: center;
+	line-height: 52px;
+	border-radius: 15px 15px 0 0;
+}
+.nav2 a:hover{
+	background-color: #dc4d00;
+}
+.nav2 li{
+	float: left;
+	width: 312px;
+	height: 52px;
+	margin-right: 12px;
+}
+.nav2 li:last-child{
+	margin-right: 0px;
+}
+.nav2 .hover{
+	background-color: #dc4d00;
+}
+.banner-contant{
+	height: 380px;
+	background-color: #c12000;
+}
+.banner-left{
+	width: 312px;
+	height: 292px;
+	margin-left: 127px;
+	color: white;
+	text-align: center;
+	padding-top: 88px;
+	float: left;	
+}
+.banner-left h3{
+	font-size: 52px;
+}
+
+.banner-left p{
+	font-size: 15px;
+	text-align: center;
+	line-height: 22px;
+}
+.banner-left a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	width: 170px;
+	height: 40px;
+	background:linear-gradient(to top,#c12000,#dc4d00);
+	margin:0 auto;
+	margin-top: 58px;
+	border-radius: 20px;
+	line-height: 40px;
+	box-shadow: 1px 1px 7px #2f2525;
+}
+.banner-left a span{
+	float: right;
+	width: 20px;
+	height: 20px;
+	background-color: #be1c00;
+	border-radius: 10px;
+	margin-top: 10px;
+	line-height: 20px;
+	margin-right: 10px;
+}
+.banner-left a:hover{
+	background: #ff4a11;
+}
+.banner-right{
+	width: 636px;
+	height: 360px;
+	padding-top: 20px;
+	padding-left: 12px;
+	float: left;
+}
+.contant{
+	width: 940px;
+	height: 784px;
+	margin:0 auto;
+	padding-top: 10px;
+	padding-bottom: 46px;
+}
+.contant-left{
+	height: 794px;
+	width: 320px;
+	float: left;
+}
+.contant-right{
+	height: 794px;
+	width: 620px;
+	float: left;
+}
+.contant a{
+	text-decoration: none;
+	color: red;
+}
+.contant h4{
+	font-size: 16px;
+	height: 81px;
+	line-height: 81px;
+}
+.contant h3{
+	font-size: 22px;
+}
+.contant h5{
+	height: 40px;
+	line-height: 40px;
+}
+.contant p{
+	color: #908080;
+	line-height: 23px;
+}
+.contant-left p{
+	width: 255px;
+}
+.contant-left ul{
+	list-style: none;
+}
+.contant-left li{
+	background-image: url(../img/hongjiantou_06.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	background-position: 0 center;
+	line-height: 30px;
+}
+.contant-left ul a{
+	color: #908080;
+	margin-left: 18px;
+}
+.contant-right h3{
+	height: 80px;
+	line-height: 80px;
+}
+.fit-line img{
+	float: left;
+	margin-top: 10px;
+}
+.fit-line h5{
+	height: 35px;
+	line-height: 27px;
+	padding-bottom: 22px;
+}
+.fit-line p,.fit-line h5{
+	width: 374px;
+	float: left;
+	margin-left: 20px;
+}
+.contant-right>p{
+	margin-top: 180px;
+}
+#button{
+	display: block;
+	width: 104px;
+	height: 26px;
+	color: white;
+	background-color: red;
+	line-height: 26px;
+	text-align: center;
+	margin-top: 17px;
+}
+.recommend{
+	float: left;
+	width: 340px;
+}
+.recommend a{
+	line-height: 23px;
+}
+.recommend p{
+	width: 300px;
+}
+.popular-topics{
+	width: 280px;
+	float: right;
+}
+.popular-topics div img{
+	float: left;
+	margin-top: 7px;
+}
+.popular-topics div p,.popular-topics div h5{
+	width: 168px;
+	float: right;
+}
+.popular-topics>div{
+	height: 120px;
+	width: 280px;
+}
+.red{
+	color: red;
+}
+.footer{
+	height: 140px;
+	border-top: 1px solid #e4e4e4;
+	text-align: center;
+}
+.footer p{
+	margin-bottom: 13px;
+}
+.footer p:first-child{
+	margin-top: 30px;
+}
+.contant a:hover{
+	background-color: #ff8b66;
+}
